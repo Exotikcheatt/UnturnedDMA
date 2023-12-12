@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\API">
+      <UniqueIdentifier>{09f6bcfb-85ec-4c1e-aab8-35a4203c4249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Unturned">
+      <UniqueIdentifier>{915aa97b-ec76-438c-af22-3cb662eeb5f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Unturned\UI stuff">
+      <UniqueIdentifier>{de8224a4-bccd-449d-8d69-1b20ec93d505}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="graphics.h">
+      <Filter>Source Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Source Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="XorString.h">
+      <Filter>Source Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Unturned.h">
+      <Filter>Source Files\Unturned</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files\Unturned</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Source Files\Unturned</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Source Files\Unturned</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h">
+      <Filter>Source Files\Unturned\UI stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBone.h">
+      <Filter>Source Files\Unturned</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeConfig.h">
+      <Filter>Source Files\Unturned</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle.h">
+      <Filter>Source Files\Unturned</Filter>
+    </ClInclude>
+    <ClInclude Include="DMA.h">
+      <Filter>Source Files\API</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Unturned.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
